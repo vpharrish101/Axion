@@ -63,10 +63,9 @@ The reason I engineered this 2.5d segmentation architectue: -
 |--------------|--------|-------|
 | UNet (2.5D)  | 0.842  | 0.733 |
 
-4.
-    a. The 2.5D UNet captures spatial continuity across slices, showing that incorporating local depth context improves segmentation stability compared to isolated        2D inputs.
-    b. The model learns both coarse structure and fine boundaries through the encoder-decoder design, indicating that hierarchical feature extraction is sufficient        to localize tumor regions effectively.
-    c. The hybrid Dice + BCE loss improves performance by balancing overlap quality and pixel-wise accuracy, leading to more consistent predictions, especially on smaller or irregular regions.
+4.  a. The 2.5D UNet captures spatial continuity across slices, showing that incorporating local depth context improves segmentation stability compared to isolated        2D inputs. \
+    b. The model learns both coarse structure and fine boundaries through the encoder-decoder design, indicating that hierarchical feature extraction is sufficient        to localize tumor regions effectively. \
+    c. The hybrid Dice + BCE loss improves performance by balancing overlap quality and pixel-wise accuracy, leading to more consistent predictions, especially on smaller or irregular regions. \
 
 ### How to Run: -
 
