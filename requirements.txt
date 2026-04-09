@@ -1,0 +1,17 @@
+albumentations==2.0.8
+matplotlib==3.10.8
+mlflow==3.10.0
+mlflow_skinny==3.10.0
+mlflow_tracing==3.10.0
+nibabel==5.4.2
+numpy==2.4.4
+opencv_python==4.13.0.92
+opencv_python_headless==4.13.0.92
+pandas==3.0.2
+PyYAML==6.0.3
+scikit_learn==1.8.0
+segmentation_models_pytorch==0.5.0
+torch==2.7.0
+torch==2.4.1+cu121
+torchmetrics==1.9.0
+tqdm==4.67.1
